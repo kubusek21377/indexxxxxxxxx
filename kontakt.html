@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="o mnie.html">O mnie</a></li>
+                <li><a href="projekty.html">Projekty</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Formularz kontaktowy</h2>
+        <form action="send-message.php" method="POST">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Wyślij</button>
+        </form>
+        
+        <h2>Dane kontaktowe</h2>
+        <ul>
+            <li>Email: jakubtw177@gmail.com</li>
+            <li>Telefon: nie podam bo sie wstydze 696-969-696</li>
+        </ul>
+    </main>
+</body>
+</html>
